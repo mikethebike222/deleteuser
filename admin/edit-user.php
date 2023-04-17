@@ -103,7 +103,7 @@ if( isset($_POST['changepword']))
 			
                     <div class="input-group p-2">
                         <span class="input-group-text">Email</span>
-                        <input type="email" class="form-control" id="email" value="<?php echo $row['email'] ; ?>.org" name="email">
+                        <input type="email" class="form-control" id="email" value="<?php echo $row['email'] ; ?>" name="email">
                     </div>
 			<input type="submit" value="update" id="registerbttn" class="btn btn-lg btn-primary">
 			 <div id="feedback" class="border ml-4 mt-2 mb-2 p-2 bg-danger">  <?php echo $row['id'] ; ?></div>
